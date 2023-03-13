@@ -1,0 +1,37 @@
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.deps.json
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.deps.json
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.deps.json
+E:\Muneeb\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csprojAssemblyReference.cache
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfoInputs.cache
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfo.cs
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.pdb
+D:\AXIS API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.deps.json
+D:\AXIS API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+D:\AXIS API\ERP.DataAccess\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csproj.AssemblyReference.cache
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfoInputs.cache
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.AssemblyInfo.cs
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.csproj.CoreCompileInputs.cache
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.dll
+D:\AXIS API\ERP.DataAccess\obj\Debug\netstandard2.1\ERP.DataAccess.pdb

@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Bank>
+
+@{
+    ViewBag.Title = "Bank List";
+    ViewBag.PageLegend = "Bank List";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!--breadcrumbs start -->
+        <ul class="breadcrumb">
+            <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i>Home</a></li>
+            <li><a>Administration</a></li>
+            <li class="active"><a>Bank List</a></li>
+        </ul>
+        <!--breadcrumbs end -->
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-1">
+        <a class="btn btn-primary" asp-action="CreateBank" asp-controller="Administration">Add</a>
+    </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                <section class="panel-primary ">
+                    <div class="panel-body">
+                        <div class="adv-table">
+
+                            <table class="display table table-bordered table-striped dynamic-table cf">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Bank Name</th>
+                                        <th>Edit</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var Bank in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <a asp-action="EditBank" asp-controller="Administration" asp-route-id="@Bank.Bank_Code  ">
+                                                    @Bank.Bank_Code  
+                                                </a>
+                                            </td>
+                                            <td>@Bank.Bank_Name </td>
+
+                                            @*@if ((await authservice.AuthorizeAsync(User, "EditLevel1Policy")).Succeeded){*@
+                                            <td>
+                                                <a class="btn btn-primary" asp-action="EditBank" asp-controller="Administration" asp-route-id="@Bank.Bank_Code">Edit</a>
+                                            </td>
+                                            @* }
+                                                                        @if ((await authservice.AuthorizeAsync(User, "DeleteLevel1Policy")).Succeeded)
+                                                {*@
+
+
+                                            <td>
+                                                <form method="post" asp-action="DeleteBank" asp-controller="Administration" asp-route-id="@Bank.Bank_Code  ">
+                                                    <input type="hidden" name="" value="" />
+                                                    <button class="btn btn-danger" type="submit">Delete</button>
+                                                </form>
+
+                                            </td>
+                                            @* }*@
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        @section Scripts
+{
+            <script class="include" type="text/javascript" src="~/js/jquery.dcjqaccordion.2.7.js"></script>
+            <!--dynamic table-->
+            <script type="text/javascript" src="~/js/advanced-datatable/js/jquery.dataTables.js"></script>
+            <script type="text/javascript" src="~/js/data-tables/DT_bootstrap.js"></script>
+            <script src="~/js/dynamic_table_init.js"></script>
+        }
+
+

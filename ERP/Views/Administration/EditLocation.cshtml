@@ -1,0 +1,66 @@
+﻿@model LocationCreateEditVM
+
+@{
+    ViewBag.Title = "Edit Location";
+    ViewBag.PageLegend = "Edit Location";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!--breadcrumbs start -->
+        <ul class="breadcrumb">
+            <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i>Home</a></li>
+            <li><a>Administration</a></li>
+            <li><a asp-controller="Administration" asp-action="ListLocation"><i class="fa fa-user mr-1"></i>Location List</a></li>
+            <li class="active"><a>Edit Location</a></li>
+        </ul>
+        <!--breadcrumbs end -->
+    </div>
+</div>
+
+<h1>Edit Location</h1>
+
+<form method="post" class="mt-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <label asp-for="id" class="col-sm-2 col-form-label"></label>
+            <input asp-for="id" disabled class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <label asp-for="LocationName" class="col-sm-4 col-form-label"></label>
+            <input asp-for="LocationName" class="form-control">
+            <span asp-validation-for="LocationName" class="text-danger"></span>
+        </div>
+        <div class="col-lg-12">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <label asp-for="Region"></label>
+            <select asp-for="Region" class="dropdown  e2" asp-items="Html.GetEnumSelectList<Region>()">
+                <option value="">Please select region</option>
+            </select>
+
+            <span asp-validation-for="Region" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-1">
+
+                <button type="submit" asp-route-id="@Model.id"
+                        asp-action="EditLocation" asp-controller="Administration" class="btn btn-primary">Update</button>
+
+            </div>
+<div class="col-lg-1">
+        <button asp-action="DeleteLocation" asp-controller="Administration" asp-route-id="@Model.id" class="btn btn-danger" type="submit">Delete</button>
+
+</div>
+<div class="col-lg-1">
+    <a asp-action="ListLocation" asp-controller="Administration" class="btn btn-primary">Cancel</a>
+</div>
+                   </div>
+  </div>
+ </form>

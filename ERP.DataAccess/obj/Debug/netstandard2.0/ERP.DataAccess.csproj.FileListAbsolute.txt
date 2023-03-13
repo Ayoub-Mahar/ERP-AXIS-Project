@@ -1,0 +1,9 @@
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.0\ERP.DataAccess.deps.json
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.0\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP.DataAccess\bin\Debug\netstandard2.0\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP.DataAccess\obj\Debug\netstandard2.0\ERP.DataAccess.csproj.CoreCompileInputs.cache

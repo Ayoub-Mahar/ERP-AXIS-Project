@@ -1,0 +1,51 @@
+﻿@model Level1DetailsVM
+@*@using Microsoft.AspNetCore.Authorization
+
+@inject IAuthorizationService authservice*@ 
+@{
+    ViewBag.PageTitle = "Level 1 Details";
+    ViewBag.PageLegend = "Level 1 Details";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <!--breadcrumbs start -->
+        <ul class="breadcrumb">
+            <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i>Home</a></li>
+            <li><a>Accounts</a></li>
+            <li class="active"><a> Level 1 Details</a></li>
+        </ul>
+        <!--breadcrumbs end -->
+    </div>
+</div>
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.Level1List.Level1Desc  </h1>
+            </div>
+
+            <div class="card-body text-center">
+               
+                <h4>Level 1 ID : @Model.Level1List.Level1ID  </h4>
+                <h4>DESC : @Model.Level1List.Level1Desc  </h4>
+
+            </div>
+            <div class="card-footer text-center">
+                @*@if ((await authservice.AuthorizeAsync(User, "ViewLevel1Policy")).Succeeded)
+                {*@
+                    <a asp-controller="level1" asp-action="index" class="btn btn-primary">Back</a>
+                @*}
+                @if ((await authservice.AuthorizeAsync(User, "ViewLevel1Policy")).Succeeded)
+                {*@
+                    <a asp-controller="level1" asp-action="EditLevel1" class="btn btn-primary">Edit</a>
+                @*}
+                @if ((await authservice.AuthorizeAsync(User, "ViewLevel1Policy")).Succeeded)
+                {*@
+                    <a asp-controller="level1" asp-action="DeleteLevel1" class="btn btn-danger">Delete</a>
+                @*}*@
+                </div>
+        </div>
+    </div>
+</div>

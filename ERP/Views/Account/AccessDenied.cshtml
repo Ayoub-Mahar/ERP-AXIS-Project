@@ -1,0 +1,56 @@
+﻿@inject SignInManager<ApplicationUser> objSignInManager
+@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="~/img/favicon.png">
+
+    <title>404</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/style-responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="body-404">
+
+    <div class="error-head"> </div>
+
+    <div class="container ">
+        <section class="error-wrapper text-center">
+            <h1><img src="~/images/404.png" alt=""></h1>
+            <div class="error-desk">
+                <h2 >Contact Administrator </h2>
+                <p class="nrml-txt text-danger ">Access is Denied.</p>
+
+            </div>
+            <h3 class="text-danger ">You do not have permission to view this resource </h3>
+            @if (objSignInManager.IsSignedIn(User))
+            {
+
+                <a asp-action="Create" asp-controller="level1" class="back-btn"><i class="fa fa-home"></i> Back To Home</a>
+            }
+            else
+            {
+                <a asp-action="Login" asp-controller="Account" class="back-btn"><i class="fa fa-home"></i> Back To Home</a>
+            }
+
+
+        </section>
+
+    </div>
+
+
+</body>

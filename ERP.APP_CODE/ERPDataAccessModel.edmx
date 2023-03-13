@@ -1,0 +1,1937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ERPDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.ACCOUNT_PAYEE_MST' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ACCOUNT_PAYEE_MST">
+          <Key>
+            <PropertyRef Name="AP_DESC" />
+          </Key>
+          <Property Name="AP_DESC" Type="nvarchar" MaxLength="25" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetRoleClaims">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleId" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetRoles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" />
+          <Property Name="NormalizedName" Type="nvarchar" MaxLength="256" />
+          <Property Name="ConcurrencyStamp" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaims">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogins">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+          </Key>
+          <Property Name="LoginProvider" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="ProviderKey" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="ProviderDisplayName" Type="nvarchar(max)" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="450" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUserRoles">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="RoleId" Type="nvarchar" MaxLength="450" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="256" />
+          <Property Name="NormalizedUserName" Type="nvarchar" MaxLength="256" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="NormalizedEmail" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="nvarchar(max)" />
+          <Property Name="SecurityStamp" Type="nvarchar(max)" />
+          <Property Name="ConcurrencyStamp" Type="nvarchar(max)" />
+          <Property Name="PhoneNumber" Type="nvarchar(max)" />
+          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEnd" Type="datetimeoffset" Precision="7" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="City" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetUserTokens">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="LoginProvider" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="450" Nullable="false" />
+          <Property Name="Value" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ERPDB.dbo.BANK_MST' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="BANK_MST">
+          <Property Name="B_CODE" Type="int" />
+          <Property Name="BANK_CODE" Type="int" />
+          <Property Name="ACCOUNT_NO" Type="varchar" MaxLength="50" />
+          <Property Name="ACCOUNT_TITLE" Type="varchar" MaxLength="100" />
+          <Property Name="BRANCH_NAME" Type="varchar" MaxLength="100" />
+          <Property Name="ADDRESS1" Type="varchar" MaxLength="50" />
+          <Property Name="ADDRESS2" Type="varchar" MaxLength="50" />
+          <Property Name="TELEPHONE1" Type="varchar" MaxLength="15" />
+          <Property Name="TELEPHONE2" Type="varchar" MaxLength="15" />
+          <Property Name="E_MAIL" Type="varchar" MaxLength="25" />
+          <Property Name="FAX" Type="varchar" MaxLength="20" />
+          <Property Name="CONTACT_PERSON" Type="varchar" MaxLength="20" />
+          <Property Name="GL_CODE" Type="varchar" MaxLength="10" />
+          <Property Name="SHOW_ON_INVOICE" Type="bit" />
+        </EntityType>-->
+        <EntityType Name="BANK_NAME">
+          <Key>
+            <PropertyRef Name="BANK_CODE" />
+          </Key>
+          <Property Name="BANK_CODE" Type="int" Nullable="false" />
+          <Property Name="BANK_NAME" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="BRANCH">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="branchname" Type="nvarchar" MaxLength="100" />
+          <Property Name="LocationID" Type="int" />
+          <Property Name="CompanyID" Type="int" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.CHEQUE_BOOK_DET' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="CHEQUE_BOOK_DET">
+          <Key>
+            <PropertyRef Name="GL_CODE" />
+            <PropertyRef Name="CHQ_BOOK_NO" />
+            <PropertyRef Name="CHEQUE_NO" />
+          </Key>
+          <Property Name="GL_CODE" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="CHQ_BOOK_NO" Type="int" Nullable="false" />
+          <Property Name="CHEQUE_NO" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="USED" Type="bit" />
+          <Property Name="HOLD" Type="varchar" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="CHEQUE_BOOK_MST">
+          <Key>
+            <PropertyRef Name="GL_CODE" />
+            <PropertyRef Name="CHQ_BOOK_NO" />
+          </Key>
+          <Property Name="GL_CODE" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="CHQ_BOOK_NO" Type="int" Nullable="false" />
+          <Property Name="PREFIX_LEAF" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="NO_OF_LEAF" Type="int" />
+          <Property Name="START_DIGIT" Type="int" />
+          <Property Name="CHEQUE_BOOK_ACTIVE" Type="bit" />
+        </EntityType>
+        <EntityType Name="COMPANY">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="companyname" Type="varchar" MaxLength="100" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ERPDB.dbo.Department' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Department">
+          <Property Name="id" Type="int" />
+          <Property Name="departmentname" Type="varchar" MaxLength="100" />
+          <Property Name="BranchID" Type="int" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.FISCAL_YEAR' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="FISCAL_YEAR">
+          <Key>
+            <PropertyRef Name="FISCAL_YEAR_ID" />
+          </Key>
+          <Property Name="FISCAL_YEAR_ID" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="DATE_FROM" Type="datetime" />
+          <Property Name="DATE_TO" Type="datetime" />
+          <Property Name="PREVIOUS_YEAR" Type="nvarchar" MaxLength="10" />
+          <Property Name="ACTIVE" Type="bit" />
+          <Property Name="SEQ_NO" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ERPDB.dbo.GL_PARAMETER' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="GL_PARAMETER">
+          <Property Name="CASH_PREFIX" Type="varchar" MaxLength="6" />
+          <Property Name="BANK_PREFIX" Type="varchar" MaxLength="6" />
+          <Property Name="CASH_IN_HAND" Type="varchar" MaxLength="10" />
+          <Property Name="LC_PREFIX" Type="varchar" MaxLength="6" />
+          <Property Name="POST_FLAG" Type="varchar" MaxLength="10" />
+          <Property Name="FISCAL_YEAR_CYCLE" Type="varchar" MaxLength="7" />
+          <Property Name="S_MON" Type="varchar" MaxLength="3" />
+          <Property Name="E_MON" Type="varchar" MaxLength="3" />
+          <Property Name="CHECK_IP" Type="varchar" MaxLength="3" />
+          <Property Name="CUST_SUPP_DETAIL" Type="varchar" MaxLength="1" />
+          <Property Name="RECEIPT_ADJUST_LOC" Type="varchar" MaxLength="3" />
+        </EntityType>-->
+        <EntityType Name="LEVEL1">
+          <Key>
+            <PropertyRef Name="Level1ID" />
+          </Key>
+          <Property Name="Level1ID" Type="int" Nullable="false" />
+          <Property Name="Level1Desc" Type="nvarchar" MaxLength="50" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="LEVEL2">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+          </Key>
+          <Property Name="level1id" Type="int" Nullable="false" />
+          <Property Name="level2id" Type="int" Nullable="false" />
+          <Property Name="level2desc" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="LEVEL3">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+            <PropertyRef Name="level3id" />
+          </Key>
+          <Property Name="level1id" Type="int" Nullable="false" />
+          <Property Name="level2id" Type="int" Nullable="false" />
+          <Property Name="level3id" Type="int" Nullable="false" />
+          <Property Name="level3desc" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.LEVEL4' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="LEVEL4">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+            <PropertyRef Name="level3id" />
+            <PropertyRef Name="level4id" />
+            <PropertyRef Name="level4desc" />
+          </Key>
+          <Property Name="level1id" Type="varchar" MaxLength="1" Nullable="false" />
+          <Property Name="level2id" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="level3id" Type="varchar" MaxLength="3" Nullable="false" />
+          <Property Name="level4id" Type="varchar" MaxLength="4" Nullable="false" />
+          <Property Name="level4desc" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="gl_code" Type="varchar" MaxLength="10" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="LOCATION">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="locationname" Type="varchar" MaxLength="100" />
+          <Property Name="Region" Type="int" />
+          <Property Name="EntryBy" Type="varchar" MaxLength="20" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="EditBy" Type="varchar" MaxLength="20" />
+          <Property Name="EditDate" Type="datetime" />
+          <Property Name="DeletedBy" Type="varchar" MaxLength="20" />
+          <Property Name="DeletedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.PAYMENT_MST' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="PAYMENT_MST">
+          <Key>
+            <PropertyRef Name="COM_CODE" />
+            <PropertyRef Name="PRIN_CODE" />
+            <PropertyRef Name="LOC_CODE" />
+            <PropertyRef Name="FISCAL_YEAR_ID" />
+            <PropertyRef Name="V_TYPE" />
+            <PropertyRef Name="VOUCHER_NO" />
+            <PropertyRef Name="CB_CREDIT" />
+          </Key>
+          <Property Name="SYSTEM_DATE" Type="datetime" />
+          <Property Name="SYSTEM_TIME" Type="datetime" />
+          <Property Name="USER_ID" Type="nvarchar" MaxLength="450" />
+          <Property Name="COM_CODE" Type="int" Nullable="false" />
+          <Property Name="PRIN_CODE" Type="int" Nullable="false" />
+          <Property Name="LOC_CODE" Type="int" Nullable="false" />
+          <Property Name="FISCAL_YEAR_ID" Type="int" Nullable="false" />
+          <Property Name="V_TYPE" Type="int" Nullable="false" />
+          <Property Name="VOUCHER_NO" Type="int" Nullable="false" />
+          <Property Name="V_DATE" Type="datetime" />
+          <Property Name="CB_CREDIT" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="CHEQUE_NO" Type="nvarchar" MaxLength="50" />
+          <Property Name="CHEQUE_DATE" Type="datetime" />
+          <Property Name="AMOUNT" Type="money" />
+          <Property Name="USED" Type="bit" />
+          <Property Name="REMARKS" Type="nvarchar" MaxLength="500" />
+          <Property Name="RECONCILE" Type="bit" />
+          <Property Name="POST_FLAG" Type="bit" />
+          <Property Name="SUPP_CODE" Type="int" />
+          <Property Name="GROSS_AMOUNT" Type="money" />
+          <Property Name="TOTAL_TAX" Type="money" />
+          <Property Name="PAYMENT_TYPE" Type="char" MaxLength="10" />
+          <Property Name="ADV_NO_PO_NO" Type="nvarchar" MaxLength="20" />
+          <Property Name="CUST_CODE" Type="int" />
+          <Property Name="ACC_PAYABLE" Type="nvarchar" MaxLength="10" />
+          <Property Name="CANCEL_FLAG" Type="bit" />
+          <Property Name="VENDOR_GROUP" Type="int" />
+          <Property Name="NEW_PAYABLE" Type="nvarchar" MaxLength="10" />
+          <Property Name="JOB_COM" Type="nvarchar" MaxLength="2" />
+          <Property Name="JOB_PRIN" Type="nvarchar" MaxLength="2" />
+          <Property Name="JOB_LOC" Type="nvarchar" MaxLength="2" />
+          <Property Name="JOB_YEAR" Type="nvarchar" MaxLength="10" />
+          <Property Name="JOB_TYPE" Type="nvarchar" MaxLength="2" />
+          <Property Name="JOB_NO" Type="nvarchar" MaxLength="5" />
+          <Property Name="PAYMENT_THROUGH_SYSTEM" Type="nvarchar" MaxLength="2" />
+          <Property Name="PO_COM" Type="nvarchar" MaxLength="2" />
+          <Property Name="PO_PRIN" Type="nvarchar" MaxLength="2" />
+          <Property Name="PO_LOC" Type="nvarchar" MaxLength="2" />
+          <Property Name="PO_YEAR" Type="nvarchar" MaxLength="10" />
+          <Property Name="PO_TYPE" Type="nvarchar" MaxLength="2" />
+          <Property Name="PO_NO" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'ERPDB.dbo.User_History' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="User_History">
+          <Property Name="SoftwareID" Type="int" />
+          <Property Name="UserID" Type="nvarchar" MaxLength="450" />
+          <Property Name="TableName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Status" Type="varchar" MaxLength="10" />
+          <Property Name="EntryBy" Type="int" />
+          <Property Name="EntryDate" Type="datetime" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="450" />
+          <Property Name="Email" Type="nvarchar" MaxLength="450" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'ERPDB.dbo.V_TYPE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="V_TYPE">
+          <Key>
+            <PropertyRef Name="V_TYPE" />
+            <PropertyRef Name="DESCRIPTION" />
+          </Key>
+          <Property Name="ID" Type="int" />
+          <Property Name="V_TYPE" Type="varchar" MaxLength="3" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="TYPE_GROUP" Type="varchar" MaxLength="3" />
+          <Property Name="CVT" Type="varchar" MaxLength="1" />
+          <Property Name="CASHBANK" Type="varchar" MaxLength="1" />
+        </EntityType>
+        <Association Name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+          <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1" />
+          <End Role="AspNetRoleClaims" Type="Self.AspNetRoleClaims" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetRoleClaims">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserClaims_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserLogins_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+          <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1" />
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserRoles_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserTokens_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="AspNetUserTokens" Type="Self.AspNetUserTokens" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserTokens">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Level2_Level1">
+          <End Role="LEVEL1" Type="Self.LEVEL1" Multiplicity="1" />
+          <End Role="LEVEL2" Type="Self.LEVEL2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LEVEL1">
+              <PropertyRef Name="Level1ID" />
+            </Principal>
+            <Dependent Role="LEVEL2">
+              <PropertyRef Name="level1id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Level3_Level2">
+          <End Role="LEVEL2" Type="Self.LEVEL2" Multiplicity="1" />
+          <End Role="LEVEL3" Type="Self.LEVEL3" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LEVEL2">
+              <PropertyRef Name="level1id" />
+              <PropertyRef Name="level2id" />
+            </Principal>
+            <Dependent Role="LEVEL3">
+              <PropertyRef Name="level1id" />
+              <PropertyRef Name="level2id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="AccountPaymentByCheque_MST_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID" Type="int" Mode="In" />
+          <Parameter Name="USER_ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="COM_CODE" Type="int" Mode="In" />
+          <Parameter Name="PRIN_CODE" Type="nvarchar" Mode="In" />
+          <Parameter Name="LOC_CODE" Type="int" Mode="In" />
+          <Parameter Name="FISCAL_YEAR_ID" Type="int" Mode="In" />
+          <Parameter Name="V_TYPE" Type="int" Mode="In" />
+          <Parameter Name="VOUCHER_NO" Type="int" Mode="In" />
+          <Parameter Name="V_DATE" Type="datetime" Mode="In" />
+          <Parameter Name="CHEQUE_NO" Type="nvarchar" Mode="In" />
+          <Parameter Name="CHEQUE_DATE" Type="datetime" Mode="In" />
+          <Parameter Name="AMOUNT" Type="money" Mode="In" />
+          <Parameter Name="USED" Type="bit" Mode="In" />
+          <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+          <Parameter Name="RECONCILE" Type="bit" Mode="In" />
+          <Parameter Name="POST_FLAG" Type="bit" Mode="In" />
+          <Parameter Name="SUPPLIER_CODE" Type="int" Mode="In" />
+          <Parameter Name="GROSS_AMOUNT" Type="money" Mode="In" />
+          <Parameter Name="TOTAL_TAX" Type="money" Mode="In" />
+          <Parameter Name="PAYMENT_TYPE" Type="char" Mode="In" />
+          <Parameter Name="ADV_NO_PO_NO" Type="nvarchar" Mode="In" />
+          <Parameter Name="CUST_CODE" Type="int" Mode="In" />
+          <Parameter Name="ACC_PAYABLE" Type="nvarchar" Mode="In" />
+          <Parameter Name="CANCEL_FLAG" Type="bit" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Bank_MST_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="BANK_CODE" Type="int" Mode="In" />
+          <Parameter Name="B_CODE" Type="int" Mode="In" />
+          <Parameter Name="ACCOUNT_NO" Type="nvarchar" Mode="In" />
+          <Parameter Name="BRANCH_NAME" Type="nvarchar" Mode="In" />
+          <Parameter Name="ADDRESS1" Type="nvarchar" Mode="In" />
+          <Parameter Name="ADDRESS2" Type="nvarchar" Mode="In" />
+          <Parameter Name="TELEPHONE1" Type="nvarchar" Mode="In" />
+          <Parameter Name="TELEPHONE2" Type="nvarchar" Mode="In" />
+          <Parameter Name="E_MAIL" Type="nvarchar" Mode="In" />
+          <Parameter Name="FAX" Type="nvarchar" Mode="In" />
+          <Parameter Name="CONTACT_PERSON" Type="nvarchar" Mode="In" />
+          <Parameter Name="GL_CODE" Type="nvarchar" Mode="In" />
+          <Parameter Name="SHOW_ON_INVOICE" Type="bit" Mode="In" />
+          <Parameter Name="ACCOUNT_TITLE" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Bank_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Branch_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="CompanyID" Type="int" Mode="In" />
+          <Parameter Name="LocationId" Type="int" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="CHEQUEBOOKMST_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="GL_CODE" Type="varchar" Mode="In" />
+          <Parameter Name="CHQ_BOOK_NO" Type="int" Mode="In" />
+          <Parameter Name="PREFIX_LEAF" Type="varchar" Mode="In" />
+          <Parameter Name="NO_OF_LEAF" Type="int" Mode="In" />
+          <Parameter Name="START_DIGIT" Type="int" Mode="In" />
+          <Parameter Name="CHEQUE_BOOK_ACTIVE" Type="bit" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Company_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="FiscalYear_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="DATE_FROM" Type="datetime" Mode="In" />
+          <Parameter Name="DATE_TO" Type="datetime" Mode="In" />
+          <Parameter Name="Active" Type="bit" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="GetCHILD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="parentid" Type="int" Mode="In" />
+          <Parameter Name="LEVELOFCOA" Type="int" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="DESC" Type="nvarchar" MaxLength="105" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Level1_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Desc" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Level2_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Desc" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level1ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Level3_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Desc" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level1ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level2ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Level4_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Desc" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level1ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level2ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="Level3ID" Type="nvarchar" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <Function Name="Location_SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="Region" Type="int" Mode="In" />
+          <Parameter Name="EntryBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="Type" Type="tinyint" Mode="In" />
+        </Function>
+        <EntityContainer Name="ERPDBModelStoreContainer">
+          <EntitySet Name="__EFMigrationsHistory" EntityType="Self.__EFMigrationsHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetRoleClaims" EntityType="Self.AspNetRoleClaims" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserTokens" EntityType="Self.AspNetUserTokens" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BANK_NAME" EntityType="Self.BANK_NAME" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BRANCH" EntityType="Self.BRANCH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CHEQUE_BOOK_MST" EntityType="Self.CHEQUE_BOOK_MST" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="COMPANY" EntityType="Self.COMPANY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LEVEL1" EntityType="Self.LEVEL1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LEVEL2" EntityType="Self.LEVEL2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LEVEL3" EntityType="Self.LEVEL3" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LOCATION" EntityType="Self.LOCATION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ACCOUNT_PAYEE_MST" EntityType="Self.ACCOUNT_PAYEE_MST" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [ACCOUNT_PAYEE_MST].[AP_DESC] AS [AP_DESC]
+    FROM [dbo].[ACCOUNT_PAYEE_MST] AS [ACCOUNT_PAYEE_MST]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="CHEQUE_BOOK_DET" EntityType="Self.CHEQUE_BOOK_DET" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [CHEQUE_BOOK_DET].[GL_CODE] AS [GL_CODE], 
+    [CHEQUE_BOOK_DET].[CHQ_BOOK_NO] AS [CHQ_BOOK_NO], 
+    [CHEQUE_BOOK_DET].[CHEQUE_NO] AS [CHEQUE_NO], 
+    [CHEQUE_BOOK_DET].[USED] AS [USED], 
+    [CHEQUE_BOOK_DET].[HOLD] AS [HOLD]
+    FROM [dbo].[CHEQUE_BOOK_DET] AS [CHEQUE_BOOK_DET]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FISCAL_YEAR" EntityType="Self.FISCAL_YEAR" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FISCAL_YEAR].[FISCAL_YEAR_ID] AS [FISCAL_YEAR_ID], 
+    [FISCAL_YEAR].[DATE_FROM] AS [DATE_FROM], 
+    [FISCAL_YEAR].[DATE_TO] AS [DATE_TO], 
+    [FISCAL_YEAR].[PREVIOUS_YEAR] AS [PREVIOUS_YEAR], 
+    [FISCAL_YEAR].[ACTIVE] AS [ACTIVE], 
+    [FISCAL_YEAR].[SEQ_NO] AS [SEQ_NO]
+    FROM [dbo].[FISCAL_YEAR] AS [FISCAL_YEAR]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="LEVEL4" EntityType="Self.LEVEL4" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [LEVEL4].[level1id] AS [level1id], 
+    [LEVEL4].[level2id] AS [level2id], 
+    [LEVEL4].[level3id] AS [level3id], 
+    [LEVEL4].[level4id] AS [level4id], 
+    [LEVEL4].[level4desc] AS [level4desc], 
+    [LEVEL4].[gl_code] AS [gl_code], 
+    [LEVEL4].[EntryBy] AS [EntryBy], 
+    [LEVEL4].[EntryDate] AS [EntryDate], 
+    [LEVEL4].[EditBy] AS [EditBy], 
+    [LEVEL4].[EditDate] AS [EditDate], 
+    [LEVEL4].[DeletedBy] AS [DeletedBy], 
+    [LEVEL4].[DeletedDate] AS [DeletedDate]
+    FROM [dbo].[LEVEL4] AS [LEVEL4]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="PAYMENT_MST" EntityType="Self.PAYMENT_MST" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [PAYMENT_MST].[SYSTEM_DATE] AS [SYSTEM_DATE], 
+    [PAYMENT_MST].[SYSTEM_TIME] AS [SYSTEM_TIME], 
+    [PAYMENT_MST].[USER_ID] AS [USER_ID], 
+    [PAYMENT_MST].[COM_CODE] AS [COM_CODE], 
+    [PAYMENT_MST].[PRIN_CODE] AS [PRIN_CODE], 
+    [PAYMENT_MST].[LOC_CODE] AS [LOC_CODE], 
+    [PAYMENT_MST].[FISCAL_YEAR_ID] AS [FISCAL_YEAR_ID], 
+    [PAYMENT_MST].[V_TYPE] AS [V_TYPE], 
+    [PAYMENT_MST].[VOUCHER_NO] AS [VOUCHER_NO], 
+    [PAYMENT_MST].[V_DATE] AS [V_DATE], 
+    [PAYMENT_MST].[CB_CREDIT] AS [CB_CREDIT], 
+    [PAYMENT_MST].[CHEQUE_NO] AS [CHEQUE_NO], 
+    [PAYMENT_MST].[CHEQUE_DATE] AS [CHEQUE_DATE], 
+    [PAYMENT_MST].[AMOUNT] AS [AMOUNT], 
+    [PAYMENT_MST].[USED] AS [USED], 
+    [PAYMENT_MST].[REMARKS] AS [REMARKS], 
+    [PAYMENT_MST].[RECONCILE] AS [RECONCILE], 
+    [PAYMENT_MST].[POST_FLAG] AS [POST_FLAG], 
+    [PAYMENT_MST].[SUPP_CODE] AS [SUPP_CODE], 
+    [PAYMENT_MST].[GROSS_AMOUNT] AS [GROSS_AMOUNT], 
+    [PAYMENT_MST].[TOTAL_TAX] AS [TOTAL_TAX], 
+    [PAYMENT_MST].[PAYMENT_TYPE] AS [PAYMENT_TYPE], 
+    [PAYMENT_MST].[ADV_NO_PO_NO] AS [ADV_NO_PO_NO], 
+    [PAYMENT_MST].[CUST_CODE] AS [CUST_CODE], 
+    [PAYMENT_MST].[ACC_PAYABLE] AS [ACC_PAYABLE], 
+    [PAYMENT_MST].[CANCEL_FLAG] AS [CANCEL_FLAG], 
+    [PAYMENT_MST].[VENDOR_GROUP] AS [VENDOR_GROUP], 
+    [PAYMENT_MST].[NEW_PAYABLE] AS [NEW_PAYABLE], 
+    [PAYMENT_MST].[JOB_COM] AS [JOB_COM], 
+    [PAYMENT_MST].[JOB_PRIN] AS [JOB_PRIN], 
+    [PAYMENT_MST].[JOB_LOC] AS [JOB_LOC], 
+    [PAYMENT_MST].[JOB_YEAR] AS [JOB_YEAR], 
+    [PAYMENT_MST].[JOB_TYPE] AS [JOB_TYPE], 
+    [PAYMENT_MST].[JOB_NO] AS [JOB_NO], 
+    [PAYMENT_MST].[PAYMENT_THROUGH_SYSTEM] AS [PAYMENT_THROUGH_SYSTEM], 
+    [PAYMENT_MST].[PO_COM] AS [PO_COM], 
+    [PAYMENT_MST].[PO_PRIN] AS [PO_PRIN], 
+    [PAYMENT_MST].[PO_LOC] AS [PO_LOC], 
+    [PAYMENT_MST].[PO_YEAR] AS [PO_YEAR], 
+    [PAYMENT_MST].[PO_TYPE] AS [PO_TYPE], 
+    [PAYMENT_MST].[PO_NO] AS [PO_NO]
+    FROM [dbo].[PAYMENT_MST] AS [PAYMENT_MST]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="V_TYPE" EntityType="Self.V_TYPE" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [V_TYPE].[ID] AS [ID], 
+    [V_TYPE].[V_TYPE] AS [V_TYPE], 
+    [V_TYPE].[DESCRIPTION] AS [DESCRIPTION], 
+    [V_TYPE].[TYPE_GROUP] AS [TYPE_GROUP], 
+    [V_TYPE].[CVT] AS [CVT], 
+    [V_TYPE].[CASHBANK] AS [CASHBANK]
+    FROM [dbo].[V_TYPE] AS [V_TYPE]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_AspNetRoleClaims_AspNetRoles_RoleId" Association="Self.FK_AspNetRoleClaims_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetRoleClaims" EntitySet="AspNetRoleClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserClaims_AspNetUsers_UserId" Association="Self.FK_AspNetUserClaims_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserLogins_AspNetUsers_UserId" Association="Self.FK_AspNetUserLogins_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserRoles_AspNetRoles_RoleId" Association="Self.FK_AspNetUserRoles_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserRoles_AspNetUsers_UserId" Association="Self.FK_AspNetUserRoles_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserTokens_AspNetUsers_UserId" Association="Self.FK_AspNetUserTokens_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserTokens" EntitySet="AspNetUserTokens" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Level2_Level1" Association="Self.FK_Level2_Level1">
+            <End Role="LEVEL1" EntitySet="LEVEL1" />
+            <End Role="LEVEL2" EntitySet="LEVEL2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Level3_Level2" Association="Self.FK_Level3_Level2">
+            <End Role="LEVEL2" EntitySet="LEVEL2" />
+            <End Role="LEVEL3" EntitySet="LEVEL3" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ERPDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <ComplexType Name="GetCHILD_Result">
+          <Property Name="DESC" Type="String" MaxLength="105" FixedLength="false" Unicode="true" />
+        </ComplexType>
+        <EntityType Name="C__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetRoleClaim">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleId" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetRole" Relationship="Self.FK_AspNetRoleClaims_AspNetRoles_RoleId" FromRole="AspNetRoleClaims" ToRole="AspNetRoles" />
+        </EntityType>
+        <EntityType Name="AspNetRole">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="NormalizedName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="ConcurrencyStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetRoleClaims" Relationship="Self.FK_AspNetRoleClaims_AspNetRoles_RoleId" FromRole="AspNetRoles" ToRole="AspNetRoleClaims" />
+          <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaim">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_AspNetUserClaims_AspNetUsers_UserId" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+          </Key>
+          <Property Name="LoginProvider" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProviderKey" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProviderDisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="UserId" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_AspNetUserLogins_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="NormalizedUserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="NormalizedEmail" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ConcurrencyStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEnd" Type="DateTimeOffset" Precision="7" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_AspNetUserClaims_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+          <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_AspNetUserLogins_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+          <NavigationProperty Name="AspNetUserTokens" Relationship="Self.FK_AspNetUserTokens_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserTokens" />
+          <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+        </EntityType>
+        <EntityType Name="AspNetUserToken">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="UserId" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LoginProvider" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="450" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_AspNetUserTokens_AspNetUsers_UserId" FromRole="AspNetUserTokens" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="BANK_NAME">
+          <Key>
+            <PropertyRef Name="BANK_CODE" />
+          </Key>
+          <Property Name="BANK_CODE" Type="Int32" Nullable="false" />
+          <Property Name="BANK_NAME1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="BRANCH">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="branchname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LocationID" Type="Int32" />
+          <Property Name="CompanyID" Type="Int32" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="CHEQUE_BOOK_MST">
+          <Key>
+            <PropertyRef Name="GL_CODE" />
+            <PropertyRef Name="CHQ_BOOK_NO" />
+          </Key>
+          <Property Name="GL_CODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CHQ_BOOK_NO" Type="Int32" Nullable="false" />
+          <Property Name="PREFIX_LEAF" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NO_OF_LEAF" Type="Int32" />
+          <Property Name="START_DIGIT" Type="Int32" />
+          <Property Name="CHEQUE_BOOK_ACTIVE" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="COMPANY">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="companyname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="LEVEL1">
+          <Key>
+            <PropertyRef Name="Level1ID" />
+          </Key>
+          <Property Name="Level1ID" Type="Int32" Nullable="false" />
+          <Property Name="Level1Desc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="LEVEL2" Relationship="Self.FK_Level2_Level1" FromRole="LEVEL1" ToRole="LEVEL2" />
+        </EntityType>
+        <EntityType Name="LEVEL2">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+          </Key>
+          <Property Name="level1id" Type="Int32" Nullable="false" />
+          <Property Name="level2id" Type="Int32" Nullable="false" />
+          <Property Name="level2desc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="LEVEL1" Relationship="Self.FK_Level2_Level1" FromRole="LEVEL2" ToRole="LEVEL1" />
+          <NavigationProperty Name="LEVEL3" Relationship="Self.FK_Level3_Level2" FromRole="LEVEL2" ToRole="LEVEL3" />
+        </EntityType>
+        <EntityType Name="LEVEL3">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+            <PropertyRef Name="level3id" />
+          </Key>
+          <Property Name="level1id" Type="Int32" Nullable="false" />
+          <Property Name="level2id" Type="Int32" Nullable="false" />
+          <Property Name="level3id" Type="Int32" Nullable="false" />
+          <Property Name="level3desc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="LEVEL2" Relationship="Self.FK_Level3_Level2" FromRole="LEVEL3" ToRole="LEVEL2" />
+        </EntityType>
+        <EntityType Name="LOCATION">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="locationname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Region" Type="Int32" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="ACCOUNT_PAYEE_MST">
+          <Key>
+            <PropertyRef Name="AP_DESC" />
+          </Key>
+          <Property Name="AP_DESC" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CHEQUE_BOOK_DET">
+          <Key>
+            <PropertyRef Name="GL_CODE" />
+            <PropertyRef Name="CHQ_BOOK_NO" />
+            <PropertyRef Name="CHEQUE_NO" />
+          </Key>
+          <Property Name="GL_CODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CHQ_BOOK_NO" Type="Int32" Nullable="false" />
+          <Property Name="CHEQUE_NO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USED" Type="Boolean" />
+          <Property Name="HOLD" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="FISCAL_YEAR">
+          <Key>
+            <PropertyRef Name="FISCAL_YEAR_ID" />
+          </Key>
+          <Property Name="FISCAL_YEAR_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DATE_FROM" Type="DateTime" Precision="3" />
+          <Property Name="DATE_TO" Type="DateTime" Precision="3" />
+          <Property Name="PREVIOUS_YEAR" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ACTIVE" Type="Boolean" />
+          <Property Name="SEQ_NO" Type="Int32" />
+        </EntityType>
+        <EntityType Name="LEVEL4">
+          <Key>
+            <PropertyRef Name="level1id" />
+            <PropertyRef Name="level2id" />
+            <PropertyRef Name="level3id" />
+            <PropertyRef Name="level4id" />
+            <PropertyRef Name="level4desc" />
+          </Key>
+          <Property Name="level1id" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="level2id" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="level3id" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="level4id" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="level4desc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="gl_code" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EntryBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EntryDate" Type="DateTime" Precision="3" />
+          <Property Name="EditBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="EditDate" Type="DateTime" Precision="3" />
+          <Property Name="DeletedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="PAYMENT_MST">
+          <Key>
+            <PropertyRef Name="COM_CODE" />
+            <PropertyRef Name="PRIN_CODE" />
+            <PropertyRef Name="LOC_CODE" />
+            <PropertyRef Name="FISCAL_YEAR_ID" />
+            <PropertyRef Name="V_TYPE" />
+            <PropertyRef Name="VOUCHER_NO" />
+            <PropertyRef Name="CB_CREDIT" />
+          </Key>
+          <Property Name="SYSTEM_DATE" Type="DateTime" Precision="3" />
+          <Property Name="SYSTEM_TIME" Type="DateTime" Precision="3" />
+          <Property Name="USER_ID" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="COM_CODE" Type="Int32" Nullable="false" />
+          <Property Name="PRIN_CODE" Type="Int32" Nullable="false" />
+          <Property Name="LOC_CODE" Type="Int32" Nullable="false" />
+          <Property Name="FISCAL_YEAR_ID" Type="Int32" Nullable="false" />
+          <Property Name="V_TYPE" Type="Int32" Nullable="false" />
+          <Property Name="VOUCHER_NO" Type="Int32" Nullable="false" />
+          <Property Name="V_DATE" Type="DateTime" Precision="3" />
+          <Property Name="CB_CREDIT" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CHEQUE_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CHEQUE_DATE" Type="DateTime" Precision="3" />
+          <Property Name="AMOUNT" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="USED" Type="Boolean" />
+          <Property Name="REMARKS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="RECONCILE" Type="Boolean" />
+          <Property Name="POST_FLAG" Type="Boolean" />
+          <Property Name="SUPP_CODE" Type="Int32" />
+          <Property Name="GROSS_AMOUNT" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="TOTAL_TAX" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PAYMENT_TYPE" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="ADV_NO_PO_NO" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="CUST_CODE" Type="Int32" />
+          <Property Name="ACC_PAYABLE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="CANCEL_FLAG" Type="Boolean" />
+          <Property Name="VENDOR_GROUP" Type="Int32" />
+          <Property Name="NEW_PAYABLE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_COM" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_PRIN" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_LOC" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_YEAR" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_TYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="JOB_NO" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="PAYMENT_THROUGH_SYSTEM" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="PO_COM" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="PO_PRIN" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="PO_LOC" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="PO_YEAR" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PO_TYPE" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Name="PO_NO" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="V_TYPE">
+          <Key>
+            <PropertyRef Name="V_TYPE1" />
+            <PropertyRef Name="DESCRIPTION" />
+          </Key>
+          <Property Name="ID" Type="Int32" />
+          <Property Name="V_TYPE1" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TYPE_GROUP" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CVT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CASHBANK" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+          <End Role="AspNetRoles" Type="Self.AspNetRole" Multiplicity="1" />
+          <End Role="AspNetRoleClaims" Type="Self.AspNetRoleClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetRoleClaims">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserClaims_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1" />
+          <End Role="AspNetUserClaims" Type="Self.AspNetUserClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserLogins_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1" />
+          <End Role="AspNetUserLogins" Type="Self.AspNetUserLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AspNetUserTokens_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1" />
+          <End Role="AspNetUserTokens" Type="Self.AspNetUserToken" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserTokens">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Level2_Level1">
+          <End Role="LEVEL1" Type="Self.LEVEL1" Multiplicity="1" />
+          <End Role="LEVEL2" Type="Self.LEVEL2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LEVEL1">
+              <PropertyRef Name="Level1ID" />
+            </Principal>
+            <Dependent Role="LEVEL2">
+              <PropertyRef Name="level1id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Level3_Level2">
+          <End Role="LEVEL2" Type="Self.LEVEL2" Multiplicity="1" />
+          <End Role="LEVEL3" Type="Self.LEVEL3" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LEVEL2">
+              <PropertyRef Name="level1id" />
+              <PropertyRef Name="level2id" />
+            </Principal>
+            <Dependent Role="LEVEL3">
+              <PropertyRef Name="level1id" />
+              <PropertyRef Name="level2id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AspNetUserRoles">
+          <End Role="AspNetRoles" Type="Self.AspNetRole" Multiplicity="*" />
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="ERPDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__EFMigrationsHistory" EntityType="Self.C__EFMigrationsHistory" />
+          <EntitySet Name="AspNetRoleClaims" EntityType="Self.AspNetRoleClaim" />
+          <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRole" />
+          <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaim" />
+          <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogin" />
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUser" />
+          <EntitySet Name="AspNetUserTokens" EntityType="Self.AspNetUserToken" />
+          <EntitySet Name="BANK_NAME" EntityType="Self.BANK_NAME" />
+          <EntitySet Name="BRANCHes" EntityType="Self.BRANCH" />
+          <EntitySet Name="CHEQUE_BOOK_MST" EntityType="Self.CHEQUE_BOOK_MST" />
+          <EntitySet Name="COMPANies" EntityType="Self.COMPANY" />
+          <EntitySet Name="LEVEL1" EntityType="Self.LEVEL1" />
+          <EntitySet Name="LEVEL2" EntityType="Self.LEVEL2" />
+          <EntitySet Name="LEVEL3" EntityType="Self.LEVEL3" />
+          <EntitySet Name="LOCATIONs" EntityType="Self.LOCATION" />
+          <EntitySet Name="ACCOUNT_PAYEE_MST" EntityType="Self.ACCOUNT_PAYEE_MST" />
+          <EntitySet Name="CHEQUE_BOOK_DET" EntityType="Self.CHEQUE_BOOK_DET" />
+          <EntitySet Name="FISCAL_YEAR" EntityType="Self.FISCAL_YEAR" />
+          <EntitySet Name="LEVEL4" EntityType="Self.LEVEL4" />
+          <EntitySet Name="PAYMENT_MST" EntityType="Self.PAYMENT_MST" />
+          <EntitySet Name="V_TYPE" EntityType="Self.V_TYPE" />
+          <AssociationSet Name="FK_AspNetRoleClaims_AspNetRoles_RoleId" Association="Self.FK_AspNetRoleClaims_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetRoleClaims" EntitySet="AspNetRoleClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserClaims_AspNetUsers_UserId" Association="Self.FK_AspNetUserClaims_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserLogins_AspNetUsers_UserId" Association="Self.FK_AspNetUserLogins_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AspNetUserTokens_AspNetUsers_UserId" Association="Self.FK_AspNetUserTokens_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserTokens" EntitySet="AspNetUserTokens" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Level2_Level1" Association="Self.FK_Level2_Level1">
+            <End Role="LEVEL1" EntitySet="LEVEL1" />
+            <End Role="LEVEL2" EntitySet="LEVEL2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Level3_Level2" Association="Self.FK_Level3_Level2">
+            <End Role="LEVEL2" EntitySet="LEVEL2" />
+            <End Role="LEVEL3" EntitySet="LEVEL3" />
+          </AssociationSet>
+          <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+          </AssociationSet>
+          <FunctionImport Name="GetCHILD" IsComposable="true" ReturnType="Collection(ERPDBModel.GetCHILD_Result)">
+            <Parameter Name="parentid" Mode="In" Type="Int32" />
+            <Parameter Name="LEVELOFCOA" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="AccountPaymentByCheque_MST_SP">
+            <Parameter Name="ID" Mode="In" Type="Int32" />
+            <Parameter Name="USER_ID" Mode="In" Type="String" />
+            <Parameter Name="COM_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="PRIN_CODE" Mode="In" Type="String" />
+            <Parameter Name="LOC_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="FISCAL_YEAR_ID" Mode="In" Type="Int32" />
+            <Parameter Name="V_TYPE" Mode="In" Type="Int32" />
+            <Parameter Name="VOUCHER_NO" Mode="In" Type="Int32" />
+            <Parameter Name="V_DATE" Mode="In" Type="DateTime" />
+            <Parameter Name="CHEQUE_NO" Mode="In" Type="String" />
+            <Parameter Name="CHEQUE_DATE" Mode="In" Type="DateTime" />
+            <Parameter Name="AMOUNT" Mode="In" Type="Decimal" />
+            <Parameter Name="USED" Mode="In" Type="Boolean" />
+            <Parameter Name="Remarks" Mode="In" Type="String" />
+            <Parameter Name="RECONCILE" Mode="In" Type="Boolean" />
+            <Parameter Name="POST_FLAG" Mode="In" Type="Boolean" />
+            <Parameter Name="SUPPLIER_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="GROSS_AMOUNT" Mode="In" Type="Decimal" />
+            <Parameter Name="TOTAL_TAX" Mode="In" Type="Decimal" />
+            <Parameter Name="PAYMENT_TYPE" Mode="In" Type="String" />
+            <Parameter Name="ADV_NO_PO_NO" Mode="In" Type="String" />
+            <Parameter Name="CUST_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="ACC_PAYABLE" Mode="In" Type="String" />
+            <Parameter Name="CANCEL_FLAG" Mode="In" Type="Boolean" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Bank_MST_SP" ReturnType="Collection(ERPDBModel.Bank_MST_SP_Result)">
+            <Parameter Name="BANK_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="B_CODE" Mode="In" Type="Int32" />
+            <Parameter Name="ACCOUNT_NO" Mode="In" Type="String" />
+            <Parameter Name="BRANCH_NAME" Mode="In" Type="String" />
+            <Parameter Name="ADDRESS1" Mode="In" Type="String" />
+            <Parameter Name="ADDRESS2" Mode="In" Type="String" />
+            <Parameter Name="TELEPHONE1" Mode="In" Type="String" />
+            <Parameter Name="TELEPHONE2" Mode="In" Type="String" />
+            <Parameter Name="E_MAIL" Mode="In" Type="String" />
+            <Parameter Name="FAX" Mode="In" Type="String" />
+            <Parameter Name="CONTACT_PERSON" Mode="In" Type="String" />
+            <Parameter Name="GL_CODE" Mode="In" Type="String" />
+            <Parameter Name="SHOW_ON_INVOICE" Mode="In" Type="Boolean" />
+            <Parameter Name="ACCOUNT_TITLE" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Bank_SP" ReturnType="Collection(ERPDBModel.Bank_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Branch_SP" ReturnType="Collection(ERPDBModel.Branch_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="CompanyID" Mode="In" Type="Int32" />
+            <Parameter Name="LocationId" Mode="In" Type="Int32" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="CHEQUEBOOKMST_SP" ReturnType="Collection(ERPDBModel.CHEQUEBOOKMST_SP_Result)">
+            <Parameter Name="GL_CODE" Mode="In" Type="String" />
+            <Parameter Name="CHQ_BOOK_NO" Mode="In" Type="Int32" />
+            <Parameter Name="PREFIX_LEAF" Mode="In" Type="String" />
+            <Parameter Name="NO_OF_LEAF" Mode="In" Type="Int32" />
+            <Parameter Name="START_DIGIT" Mode="In" Type="Int32" />
+            <Parameter Name="CHEQUE_BOOK_ACTIVE" Mode="In" Type="Boolean" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Company_SP" ReturnType="Collection(ERPDBModel.Company_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="FiscalYear_SP" ReturnType="Collection(ERPDBModel.FiscalYear_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="DATE_FROM" Mode="In" Type="DateTime" />
+            <Parameter Name="DATE_TO" Mode="In" Type="DateTime" />
+            <Parameter Name="Active" Mode="In" Type="Boolean" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Level1_SP" ReturnType="Collection(ERPDBModel.Level1_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Desc" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Level2_SP" ReturnType="Collection(ERPDBModel.Level2_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Desc" Mode="In" Type="String" />
+            <Parameter Name="Level1ID" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Level3_SP" ReturnType="Collection(ERPDBModel.Level3_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Desc" Mode="In" Type="String" />
+            <Parameter Name="Level1ID" Mode="In" Type="String" />
+            <Parameter Name="Level2ID" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Level4_SP" ReturnType="Collection(ERPDBModel.Level4_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Desc" Mode="In" Type="String" />
+            <Parameter Name="Level1ID" Mode="In" Type="String" />
+            <Parameter Name="Level2ID" Mode="In" Type="String" />
+            <Parameter Name="Level3ID" Mode="In" Type="String" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+          <FunctionImport Name="Location_SP" ReturnType="Collection(ERPDBModel.Location_SP_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Region" Mode="In" Type="Int32" />
+            <Parameter Name="EntryBy" Mode="In" Type="String" />
+            <Parameter Name="Type" Mode="In" Type="Byte" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="Bank_MST_SP_Result">
+          <Property Type="Int32" Name="BANK_CODE" Nullable="true" />
+          <Property Type="Int32" Name="B_CODE" Nullable="true" />
+          <Property Type="String" Name="BANK_NAME" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="ACCOUNT_NO" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="BRANCH_NAME" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="ADDRESS1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="ADDRESS2" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="TELEPHONE1" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="TELEPHONE2" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="E_MAIL" Nullable="true" MaxLength="25" />
+          <Property Type="String" Name="FAX" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="CONTACT_PERSON" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="GL_CODE" Nullable="true" MaxLength="10" />
+          <Property Type="Boolean" Name="SHOW_ON_INVOICE" Nullable="true" />
+          <Property Type="String" Name="ACCOUNT_TITLE" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="Bank_SP_Result">
+          <Property Type="Int32" Name="BANK_CODE" Nullable="false" />
+          <Property Type="String" Name="BANK_NAME" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="Branch_SP_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="branchname" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="LocationID" Nullable="true" />
+          <Property Type="Int32" Name="CompanyID" Nullable="true" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="CHEQUEBOOKMST_SP_Result">
+          <Property Type="String" Name="GL_CODE" Nullable="false" MaxLength="10" />
+          <Property Type="Int32" Name="CHQ_BOOK_NO" Nullable="false" />
+          <Property Type="String" Name="PREFIX_LEAF" Nullable="false" MaxLength="10" />
+          <Property Type="Int32" Name="NO_OF_LEAF" Nullable="true" />
+          <Property Type="Int32" Name="START_DIGIT" Nullable="true" />
+          <Property Type="Boolean" Name="CHEQUE_BOOK_ACTIVE" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="Company_SP_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="companyname" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="FiscalYear_SP_Result">
+          <Property Type="String" Name="FISCAL_YEAR_ID" Nullable="false" MaxLength="10" />
+          <Property Type="DateTime" Name="DATE_FROM" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="DATE_TO" Nullable="true" Precision="23" />
+          <Property Type="String" Name="PREVIOUS_YEAR" Nullable="true" MaxLength="10" />
+          <Property Type="Boolean" Name="ACTIVE" Nullable="true" />
+          <Property Type="Int32" Name="SEQ_NO" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="Level1_SP_Result">
+          <Property Type="Int32" Name="Level1ID" Nullable="false" />
+          <Property Type="String" Name="Level1Desc" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Level2_SP_Result">
+          <Property Type="Int32" Name="level2id" Nullable="false" />
+          <Property Type="String" Name="Level2Desc" Nullable="true" MaxLength="105" />
+          <Property Type="Int32" Name="level1id" Nullable="false" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Level3_SP_Result">
+          <Property Type="Int32" Name="level3id" Nullable="false" />
+          <Property Type="String" Name="Level3Desc" Nullable="true" MaxLength="160" />
+          <Property Type="Int32" Name="level1id" Nullable="false" />
+          <Property Type="Int32" Name="level2id" Nullable="false" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Level4_SP_Result">
+          <Property Type="String" Name="level4id" Nullable="false" MaxLength="4" />
+          <Property Type="String" Name="Level4Desc" Nullable="true" MaxLength="215" />
+          <Property Type="String" Name="level1id" Nullable="false" MaxLength="1" />
+          <Property Type="String" Name="level2id" Nullable="false" MaxLength="2" />
+          <Property Type="String" Name="level3id" Nullable="false" MaxLength="3" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Location_SP_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="locationname" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="Region" Nullable="true" />
+          <Property Type="String" Name="EntryBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="EditBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="EditDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DeletedBy" Nullable="true" MaxLength="20" />
+          <Property Type="DateTime" Name="DeletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ERPDBModelStoreContainer" CdmEntityContainer="ERPDBEntities">
+          <EntitySetMapping Name="C__EFMigrationsHistory">
+            <EntityTypeMapping TypeName="ERPDBModel.C__EFMigrationsHistory">
+              <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetRoleClaims">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetRoleClaim">
+              <MappingFragment StoreEntitySet="AspNetRoleClaims">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetRoles">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetRole">
+              <MappingFragment StoreEntitySet="AspNetRoles">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="NormalizedName" ColumnName="NormalizedName" />
+                <ScalarProperty Name="ConcurrencyStamp" ColumnName="ConcurrencyStamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserClaims">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetUserClaim">
+              <MappingFragment StoreEntitySet="AspNetUserClaims">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserLogins">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetUserLogin">
+              <MappingFragment StoreEntitySet="AspNetUserLogins">
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+                <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+                <ScalarProperty Name="ProviderDisplayName" ColumnName="ProviderDisplayName" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUsers">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetUser">
+              <MappingFragment StoreEntitySet="AspNetUsers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="NormalizedUserName" ColumnName="NormalizedUserName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="NormalizedEmail" ColumnName="NormalizedEmail" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="ConcurrencyStamp" ColumnName="ConcurrencyStamp" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="LockoutEnd" ColumnName="LockoutEnd" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="City" ColumnName="City" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserTokens">
+            <EntityTypeMapping TypeName="ERPDBModel.AspNetUserToken">
+              <MappingFragment StoreEntitySet="AspNetUserTokens">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BANK_NAME">
+            <EntityTypeMapping TypeName="ERPDBModel.BANK_NAME">
+              <MappingFragment StoreEntitySet="BANK_NAME">
+                <ScalarProperty Name="BANK_CODE" ColumnName="BANK_CODE" />
+                <ScalarProperty Name="BANK_NAME1" ColumnName="BANK_NAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BRANCHes">
+            <EntityTypeMapping TypeName="ERPDBModel.BRANCH">
+              <MappingFragment StoreEntitySet="BRANCH">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="branchname" ColumnName="branchname" />
+                <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CHEQUE_BOOK_MST">
+            <EntityTypeMapping TypeName="ERPDBModel.CHEQUE_BOOK_MST">
+              <MappingFragment StoreEntitySet="CHEQUE_BOOK_MST">
+                <ScalarProperty Name="GL_CODE" ColumnName="GL_CODE" />
+                <ScalarProperty Name="CHQ_BOOK_NO" ColumnName="CHQ_BOOK_NO" />
+                <ScalarProperty Name="PREFIX_LEAF" ColumnName="PREFIX_LEAF" />
+                <ScalarProperty Name="NO_OF_LEAF" ColumnName="NO_OF_LEAF" />
+                <ScalarProperty Name="START_DIGIT" ColumnName="START_DIGIT" />
+                <ScalarProperty Name="CHEQUE_BOOK_ACTIVE" ColumnName="CHEQUE_BOOK_ACTIVE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="COMPANies">
+            <EntityTypeMapping TypeName="ERPDBModel.COMPANY">
+              <MappingFragment StoreEntitySet="COMPANY">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="companyname" ColumnName="companyname" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LEVEL1">
+            <EntityTypeMapping TypeName="ERPDBModel.LEVEL1">
+              <MappingFragment StoreEntitySet="LEVEL1">
+                <ScalarProperty Name="Level1ID" ColumnName="Level1ID" />
+                <ScalarProperty Name="Level1Desc" ColumnName="Level1Desc" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LEVEL2">
+            <EntityTypeMapping TypeName="ERPDBModel.LEVEL2">
+              <MappingFragment StoreEntitySet="LEVEL2">
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="level2desc" ColumnName="level2desc" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LEVEL3">
+            <EntityTypeMapping TypeName="ERPDBModel.LEVEL3">
+              <MappingFragment StoreEntitySet="LEVEL3">
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="level3id" ColumnName="level3id" />
+                <ScalarProperty Name="level3desc" ColumnName="level3desc" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LOCATIONs">
+            <EntityTypeMapping TypeName="ERPDBModel.LOCATION">
+              <MappingFragment StoreEntitySet="LOCATION">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="locationname" ColumnName="locationname" />
+                <ScalarProperty Name="Region" ColumnName="Region" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ACCOUNT_PAYEE_MST">
+            <EntityTypeMapping TypeName="ERPDBModel.ACCOUNT_PAYEE_MST">
+              <MappingFragment StoreEntitySet="ACCOUNT_PAYEE_MST">
+                <ScalarProperty Name="AP_DESC" ColumnName="AP_DESC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CHEQUE_BOOK_DET">
+            <EntityTypeMapping TypeName="ERPDBModel.CHEQUE_BOOK_DET">
+              <MappingFragment StoreEntitySet="CHEQUE_BOOK_DET">
+                <ScalarProperty Name="GL_CODE" ColumnName="GL_CODE" />
+                <ScalarProperty Name="CHQ_BOOK_NO" ColumnName="CHQ_BOOK_NO" />
+                <ScalarProperty Name="CHEQUE_NO" ColumnName="CHEQUE_NO" />
+                <ScalarProperty Name="USED" ColumnName="USED" />
+                <ScalarProperty Name="HOLD" ColumnName="HOLD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FISCAL_YEAR">
+            <EntityTypeMapping TypeName="ERPDBModel.FISCAL_YEAR">
+              <MappingFragment StoreEntitySet="FISCAL_YEAR">
+                <ScalarProperty Name="FISCAL_YEAR_ID" ColumnName="FISCAL_YEAR_ID" />
+                <ScalarProperty Name="DATE_FROM" ColumnName="DATE_FROM" />
+                <ScalarProperty Name="DATE_TO" ColumnName="DATE_TO" />
+                <ScalarProperty Name="PREVIOUS_YEAR" ColumnName="PREVIOUS_YEAR" />
+                <ScalarProperty Name="ACTIVE" ColumnName="ACTIVE" />
+                <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LEVEL4">
+            <EntityTypeMapping TypeName="ERPDBModel.LEVEL4">
+              <MappingFragment StoreEntitySet="LEVEL4">
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="level3id" ColumnName="level3id" />
+                <ScalarProperty Name="level4id" ColumnName="level4id" />
+                <ScalarProperty Name="level4desc" ColumnName="level4desc" />
+                <ScalarProperty Name="gl_code" ColumnName="gl_code" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PAYMENT_MST">
+            <EntityTypeMapping TypeName="ERPDBModel.PAYMENT_MST">
+              <MappingFragment StoreEntitySet="PAYMENT_MST">
+                <ScalarProperty Name="SYSTEM_DATE" ColumnName="SYSTEM_DATE" />
+                <ScalarProperty Name="SYSTEM_TIME" ColumnName="SYSTEM_TIME" />
+                <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+                <ScalarProperty Name="COM_CODE" ColumnName="COM_CODE" />
+                <ScalarProperty Name="PRIN_CODE" ColumnName="PRIN_CODE" />
+                <ScalarProperty Name="LOC_CODE" ColumnName="LOC_CODE" />
+                <ScalarProperty Name="FISCAL_YEAR_ID" ColumnName="FISCAL_YEAR_ID" />
+                <ScalarProperty Name="V_TYPE" ColumnName="V_TYPE" />
+                <ScalarProperty Name="VOUCHER_NO" ColumnName="VOUCHER_NO" />
+                <ScalarProperty Name="V_DATE" ColumnName="V_DATE" />
+                <ScalarProperty Name="CB_CREDIT" ColumnName="CB_CREDIT" />
+                <ScalarProperty Name="CHEQUE_NO" ColumnName="CHEQUE_NO" />
+                <ScalarProperty Name="CHEQUE_DATE" ColumnName="CHEQUE_DATE" />
+                <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+                <ScalarProperty Name="USED" ColumnName="USED" />
+                <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+                <ScalarProperty Name="RECONCILE" ColumnName="RECONCILE" />
+                <ScalarProperty Name="POST_FLAG" ColumnName="POST_FLAG" />
+                <ScalarProperty Name="SUPP_CODE" ColumnName="SUPP_CODE" />
+                <ScalarProperty Name="GROSS_AMOUNT" ColumnName="GROSS_AMOUNT" />
+                <ScalarProperty Name="TOTAL_TAX" ColumnName="TOTAL_TAX" />
+                <ScalarProperty Name="PAYMENT_TYPE" ColumnName="PAYMENT_TYPE" />
+                <ScalarProperty Name="ADV_NO_PO_NO" ColumnName="ADV_NO_PO_NO" />
+                <ScalarProperty Name="CUST_CODE" ColumnName="CUST_CODE" />
+                <ScalarProperty Name="ACC_PAYABLE" ColumnName="ACC_PAYABLE" />
+                <ScalarProperty Name="CANCEL_FLAG" ColumnName="CANCEL_FLAG" />
+                <ScalarProperty Name="VENDOR_GROUP" ColumnName="VENDOR_GROUP" />
+                <ScalarProperty Name="NEW_PAYABLE" ColumnName="NEW_PAYABLE" />
+                <ScalarProperty Name="JOB_COM" ColumnName="JOB_COM" />
+                <ScalarProperty Name="JOB_PRIN" ColumnName="JOB_PRIN" />
+                <ScalarProperty Name="JOB_LOC" ColumnName="JOB_LOC" />
+                <ScalarProperty Name="JOB_YEAR" ColumnName="JOB_YEAR" />
+                <ScalarProperty Name="JOB_TYPE" ColumnName="JOB_TYPE" />
+                <ScalarProperty Name="JOB_NO" ColumnName="JOB_NO" />
+                <ScalarProperty Name="PAYMENT_THROUGH_SYSTEM" ColumnName="PAYMENT_THROUGH_SYSTEM" />
+                <ScalarProperty Name="PO_COM" ColumnName="PO_COM" />
+                <ScalarProperty Name="PO_PRIN" ColumnName="PO_PRIN" />
+                <ScalarProperty Name="PO_LOC" ColumnName="PO_LOC" />
+                <ScalarProperty Name="PO_YEAR" ColumnName="PO_YEAR" />
+                <ScalarProperty Name="PO_TYPE" ColumnName="PO_TYPE" />
+                <ScalarProperty Name="PO_NO" ColumnName="PO_NO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="V_TYPE">
+            <EntityTypeMapping TypeName="ERPDBModel.V_TYPE">
+              <MappingFragment StoreEntitySet="V_TYPE">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="V_TYPE1" ColumnName="V_TYPE" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="TYPE_GROUP" ColumnName="TYPE_GROUP" />
+                <ScalarProperty Name="CVT" ColumnName="CVT" />
+                <ScalarProperty Name="CASHBANK" ColumnName="CASHBANK" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="AspNetUserRoles" TypeName="ERPDBModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+            <EndProperty Name="AspNetRoles">
+              <ScalarProperty Name="Id" ColumnName="RoleId" />
+            </EndProperty>
+            <EndProperty Name="AspNetUsers">
+              <ScalarProperty Name="Id" ColumnName="UserId" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <FunctionImportMapping FunctionName="ERPDBModel.Store.GetCHILD" FunctionImportName="GetCHILD">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.GetCHILD_Result">
+                <ScalarProperty Name="DESC" ColumnName="DESC" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="AccountPaymentByCheque_MST_SP" FunctionName="ERPDBModel.Store.AccountPaymentByCheque_MST_SP" />
+          <FunctionImportMapping FunctionImportName="Bank_MST_SP" FunctionName="ERPDBModel.Store.Bank_MST_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Bank_MST_SP_Result">
+                <ScalarProperty Name="BANK_CODE" ColumnName="BANK_CODE" />
+                <ScalarProperty Name="B_CODE" ColumnName="B_CODE" />
+                <ScalarProperty Name="BANK_NAME" ColumnName="BANK_NAME" />
+                <ScalarProperty Name="ACCOUNT_NO" ColumnName="ACCOUNT_NO" />
+                <ScalarProperty Name="BRANCH_NAME" ColumnName="BRANCH_NAME" />
+                <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+                <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+                <ScalarProperty Name="TELEPHONE1" ColumnName="TELEPHONE1" />
+                <ScalarProperty Name="TELEPHONE2" ColumnName="TELEPHONE2" />
+                <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="CONTACT_PERSON" ColumnName="CONTACT_PERSON" />
+                <ScalarProperty Name="GL_CODE" ColumnName="GL_CODE" />
+                <ScalarProperty Name="SHOW_ON_INVOICE" ColumnName="SHOW_ON_INVOICE" />
+                <ScalarProperty Name="ACCOUNT_TITLE" ColumnName="ACCOUNT_TITLE" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Bank_SP" FunctionName="ERPDBModel.Store.Bank_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Bank_SP_Result">
+                <ScalarProperty Name="BANK_CODE" ColumnName="BANK_CODE" />
+                <ScalarProperty Name="BANK_NAME" ColumnName="BANK_NAME" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Branch_SP" FunctionName="ERPDBModel.Store.Branch_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Branch_SP_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="branchname" ColumnName="branchname" />
+                <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="CHEQUEBOOKMST_SP" FunctionName="ERPDBModel.Store.CHEQUEBOOKMST_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.CHEQUEBOOKMST_SP_Result">
+                <ScalarProperty Name="GL_CODE" ColumnName="GL_CODE" />
+                <ScalarProperty Name="CHQ_BOOK_NO" ColumnName="CHQ_BOOK_NO" />
+                <ScalarProperty Name="PREFIX_LEAF" ColumnName="PREFIX_LEAF" />
+                <ScalarProperty Name="NO_OF_LEAF" ColumnName="NO_OF_LEAF" />
+                <ScalarProperty Name="START_DIGIT" ColumnName="START_DIGIT" />
+                <ScalarProperty Name="CHEQUE_BOOK_ACTIVE" ColumnName="CHEQUE_BOOK_ACTIVE" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Company_SP" FunctionName="ERPDBModel.Store.Company_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Company_SP_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="companyname" ColumnName="companyname" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="FiscalYear_SP" FunctionName="ERPDBModel.Store.FiscalYear_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.FiscalYear_SP_Result">
+                <ScalarProperty Name="FISCAL_YEAR_ID" ColumnName="FISCAL_YEAR_ID" />
+                <ScalarProperty Name="DATE_FROM" ColumnName="DATE_FROM" />
+                <ScalarProperty Name="DATE_TO" ColumnName="DATE_TO" />
+                <ScalarProperty Name="PREVIOUS_YEAR" ColumnName="PREVIOUS_YEAR" />
+                <ScalarProperty Name="ACTIVE" ColumnName="ACTIVE" />
+                <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Level1_SP" FunctionName="ERPDBModel.Store.Level1_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Level1_SP_Result">
+                <ScalarProperty Name="Level1ID" ColumnName="Level1ID" />
+                <ScalarProperty Name="Level1Desc" ColumnName="Level1Desc" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Level2_SP" FunctionName="ERPDBModel.Store.Level2_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Level2_SP_Result">
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="Level2Desc" ColumnName="Level2Desc" />
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Level3_SP" FunctionName="ERPDBModel.Store.Level3_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Level3_SP_Result">
+                <ScalarProperty Name="level3id" ColumnName="level3id" />
+                <ScalarProperty Name="Level3Desc" ColumnName="Level3Desc" />
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Level4_SP" FunctionName="ERPDBModel.Store.Level4_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Level4_SP_Result">
+                <ScalarProperty Name="level4id" ColumnName="level4id" />
+                <ScalarProperty Name="Level4Desc" ColumnName="Level4Desc" />
+                <ScalarProperty Name="level1id" ColumnName="level1id" />
+                <ScalarProperty Name="level2id" ColumnName="level2id" />
+                <ScalarProperty Name="level3id" ColumnName="level3id" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Location_SP" FunctionName="ERPDBModel.Store.Location_SP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ERPDBModel.Location_SP_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="locationname" ColumnName="locationname" />
+                <ScalarProperty Name="Region" ColumnName="Region" />
+                <ScalarProperty Name="EntryBy" ColumnName="EntryBy" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="EditBy" ColumnName="EditBy" />
+                <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+                <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+                <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

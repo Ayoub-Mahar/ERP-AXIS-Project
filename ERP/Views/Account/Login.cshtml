@@ -1,0 +1,94 @@
+﻿@model LogInVM
+
+@{
+    Layout = null;
+    ViewBag.PageTitle = "User Login";
+}
+
+    
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="ThemeBucket">
+        <link rel="icon" href="images/logo.png">
+
+        <title>Login</title>
+
+        <!--Core CSS -->
+        <link href="~/bs3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="~/css/bootstrap-reset.css" rel="stylesheet">
+        <!--DropDown-->
+        <link rel="stylesheet" type="text/css" href="~/js/select2/select2.css" />
+        <!--DropDown-->
+        <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+        <!-- Custom styles for this template -->
+        <link href="~/css/style.css" rel="stylesheet">
+        <link href="~/css/style-responsive.css" rel="stylesheet" />
+    
+    </head>
+        <body class="login-body">
+            <div class="container">
+                <form class="form-signin" id="login" method="post" >
+
+                    <div class="alert alert-danger" id="alertInvalid" style="display: none;">
+                        <div id="lblError" asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="login-wrap">
+                        <div class="user-login-info">
+                            <label asp-for="UserName"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+
+                            <label asp-for="Password"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+
+                            <div class="checkbox">
+                                <label asp-for="RememberMe">
+                                    <br /><input asp-for="RememberMe" />
+                                    @Html.DisplayNameFor(m => m.RememberMe)
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-login btn-block">Login</button>
+                    </div>
+                </form>
+                </div>
+        </body>
+        @*<h1>User Login</h1>
+
+        <form method="post">
+            <div class="row">
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label asp-for="UserName"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="checkbox">
+                        <label asp-for="RememberMe">
+                            <input asp-for="RememberMe" />
+                            @Html.DisplayNameFor(m => m.RememberMe)
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </form>*@

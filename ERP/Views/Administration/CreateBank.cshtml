@@ -1,0 +1,35 @@
+﻿@model BankCreateEditVM
+
+@{
+    ViewBag.Title = "Create New Bank";
+    ViewBag.PageLegend = "Create New Bank";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <!--breadcrumbs start -->
+        <ul class="breadcrumb">
+            <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i> Home</a></li>
+            <li><a>Administration</a></li>
+            <li><a asp-controller="Administration" asp-action="ListBank"><i class="fa fa-user mr-1"></i> Bank List</a></li>
+            <li class="active"><a>Create Bank</a></li>
+        </ul>
+        <!--breadcrumbs end -->
+    </div>
+</div>
+<form method="post">
+    <div class="row">
+        <div class="col-lg-12">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <label asp-for="BankName"></label>
+            <input asp-for="BankName" class="form-control" />
+            <span asp-validation-for="BankName" class="text-danger"></span>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button style="width:auto" type="submit" class="btn btn-primary">Save Bank</button>
+                </div>
+            </div>
+</form>

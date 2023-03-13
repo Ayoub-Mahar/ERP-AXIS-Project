@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Level1>
+
+@{
+    ViewBag.Title = "Level 1 List";
+    ViewBag.PageLegend = "Level 1 List";
+}
+
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb">
+                <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i>Home</a></li>
+                <li><a>Accounts</a></li>
+                <li class="active"><a>Level 1 List</a></li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <div class="panel-body">
+                <div class="adv-table">
+
+                    <table class="display table table-bordered table-striped dynamic-table cf">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Level 1 Description</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var lvl1 in Model)
+                            {
+                            <tr>
+                                <td>
+                                    <a asp-action="details" asp-route-id="@lvl1.Level1ID">
+                                        @lvl1.Level1ID
+                                    </a>
+                                </td>
+                                <td>@lvl1.Level1Desc</td>
+
+                                @*@if ((await authservice.AuthorizeAsync(User, "EditLevel1Policy")).Succeeded){*@
+                                <td>
+                                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@lvl1.Level1ID">Edit</a>
+                                </td>
+                                @* } 
+                                @if ((await authservice.AuthorizeAsync(User, "DeleteLevel1Policy")).Succeeded)
+        {*@
+
+
+                                <td>
+                                    <form method="post" asp-action="Delete" asp-controller="Administration" asp-route-id="@lvl1.Level1ID">
+                                        <button class="btn btn-danger" type="submit">Delete</button>
+                                    </form>
+
+                                </td>
+                                @* }*@
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+@section Scripts
+{
+    <script class="include" type="text/javascript" src="~/js/jquery.dcjqaccordion.2.7.js"></script>
+    <!--dynamic table-->
+    <script type="text/javascript" src="~/js/advanced-datatable/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="~/js/data-tables/DT_bootstrap.js"></script>
+    <script src="~/js/dynamic_table_init.js"></script>
+}
+
+

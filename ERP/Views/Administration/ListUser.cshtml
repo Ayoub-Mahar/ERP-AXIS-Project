@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    ViewBag.PageTitle = "All Users";
+    ViewBag.PageLegend = "All Users";
+}
+
+@if (Model.Any())
+{
+    <a class="btn btn-primary mb-3" style="width:auto" asp-controller="Account" asp-action="Register">
+        Add New user
+    </a>
+    
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="panel">
+                    <div class="panel-body">
+                        <div class="adv-table">
+                            <table class="display table table-bordered table-striped dynamic-table cf">
+                                <thead>
+                                    <tr>
+                                        <th>User ID</th>
+                                        <th>User Name</th>
+                                        <th>Edit</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var user in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <a asp-controller="home" asp-action="details" asp-route-id="@user.Id">
+                                                    @user.Id
+                                                </a>
+                                            </td>
+                                            <td>@user.UserName</td>
+                                                <td>
+                                                    <a class="btn btn-primary" asp-controller="Administration" asp-action="EditUser" asp-route-id="@user.Id">Edit</a>
+                                                </td>
+                                                <td>
+                                                    <form method="post" asp-action="DeleteUser" asp-controller="Administration"  asp-route-id="@user.Id">
+                                                        <button class="btn btn-danger" type="submit" >Delete</button>
+                                                    </form>
+                                                </td>
+                                            
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            No user created yet
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                Use the button below to create a user.
+            </h5>
+            <a class="btn btn-primary " style="width:auto" asp-controller="Account" asp-action="Register">
+                Add New user
+            </a>
+        </div>
+    </div>
+}

@@ -1,0 +1,528 @@
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.dll
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csprojAssemblyReference.cache
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfoInputs.cache
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfo.cs
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.RazorTargetAssemblyInfo.cache
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\appsettings.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.exe
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.deps.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.dev.json
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.pdb
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.pdb
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.pdb
+E:\TOT\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.pdb
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CoreCompileInputs.cache
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cs
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cache
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CopyComplete
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.Manifest.cache
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.xml
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.dll
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.pdb
+E:\TOT\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.genruntimeconfig.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csprojAssemblyReference.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfoInputs.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfo.cs
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.dll
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.pdb
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Dapper.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.pdb
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.pdb
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.RazorTargetAssemblyInfo.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CopyComplete
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.exe
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.deps.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.dev.json
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.pdb
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.Manifest.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.xml
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.genruntimeconfig.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cs
+E:\Muneeb\ERP API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cache
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Muneeb\ERP API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.exe
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.deps.json
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.json
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.runtimeconfig.dev.json
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.API.pdb
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.dll
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Services.pdb
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.Data.pdb
+D:\AXIS API\ERP.API\bin\Debug\netcoreapp3.1\ERP.DataAccess.pdb
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.AssemblyReference.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfoInputs.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.AssemblyInfo.cs
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CoreCompileInputs.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cs
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.MvcApplicationPartsAssemblyInfo.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.Manifest.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\staticwebassets\ERP.API.StaticWebAssets.xml
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\ERP.API.styles.css
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.RazorTargetAssemblyInfo.cache
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.csproj.CopyComplete
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.dll
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.pdb
+D:\AXIS API\ERP.API\obj\Debug\netcoreapp3.1\ERP.API.genruntimeconfig.cache

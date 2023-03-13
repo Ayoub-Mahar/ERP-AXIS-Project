@@ -1,0 +1,70 @@
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.Services.deps.json
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP.Data\bin\Debug\netstandard2.1\ERP.Data.pdb
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.csproj.CopyComplete
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP.Data\obj\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.deps.json
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.dll
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.pdb
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CopyComplete
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.deps.json
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.dll
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.pdb
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csprojAssemblyReference.cache
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfoInputs.cache
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfo.cs
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CopyComplete
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.deps.json
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.pdb
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.dll
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+E:\Muneeb\ERP API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.pdb
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csprojAssemblyReference.cache
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfoInputs.cache
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfo.cs
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CoreCompileInputs.cache
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CopyComplete
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.dll
+E:\Muneeb\ERP API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.pdb
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.deps.json
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.dll
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.Services.pdb
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.dll
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.dll
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.DataAccess.pdb
+D:\AXIS API\ERP.Services\bin\Debug\netstandard2.1\ERP.Data.pdb
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.AssemblyReference.cache
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfoInputs.cache
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.AssemblyInfo.cs
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CoreCompileInputs.cache
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.csproj.CopyComplete
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.dll
+D:\AXIS API\ERP.Services\obj\Debug\netstandard2.1\ERP.Services.pdb

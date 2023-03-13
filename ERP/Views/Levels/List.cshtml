@@ -1,0 +1,58 @@
+﻿@model IEnumerable<LevelsVM>
+
+@{
+    ViewBag.Title = "Level List";
+    ViewBag.PageLegend = "Level List";
+}
+
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb">
+                <li><a asp-controller="Dashboard" asp-action="Index"><i class="fa fa-home mr-1"></i>Home</a></li>
+                <li><a>Accounts</a></li>
+                <li class="active"><a>Levels List</a></li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <div class="panel-body">
+                <div class="adv-table">
+
+                    <table class="display table table-bordered table-striped dynamic-table cf">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var lvls in Model)
+                            {
+                            <tr>
+                                
+                                <td>@lvls.Description</td>
+
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+@section Scripts
+{
+    <script class="include" type="text/javascript" src="~/js/jquery.dcjqaccordion.2.7.js"></script>
+    <!--dynamic table-->
+    <script type="text/javascript" src="~/js/advanced-datatable/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="~/js/data-tables/DT_bootstrap.js"></script>
+    <script src="~/js/dynamic_table_init.js"></script>
+}
+
+

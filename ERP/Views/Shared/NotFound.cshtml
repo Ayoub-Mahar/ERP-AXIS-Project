@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Not Found";
+}
+
+<div class="alert alert-danger mt-1 mb-1">
+    <h4>URL Not Found</h4>
+    <hr />
+    <h5>
+        @ViewBag.ErrorMessage
+    </h5>
+</div>
+
+<a asp-controller="level1" asp-action="Create" class="btn btn-outline-success"
+   style="width:auto">Click here to see the list of all Levels</a>
